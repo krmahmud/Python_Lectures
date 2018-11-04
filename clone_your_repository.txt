@@ -1,0 +1,11 @@
+git config --global user.name "krmahmud"
+git config --global user.email russel1_sust@yahoo.com
+//copy the URL from Github
+git clone https://github.com/krmahmud/Python_Lectures.git
+//you will see the folder Python_Lectures in your local machine.
+cd Python_Lectures
+git add Python_Lecture_1_PYTHON_BASICS.ipynb
+git status
+git commit -m "Python lectures basics" Python_Lecture_1_PYTHON_BASICS.ipynb
+git push -u origin master
+
